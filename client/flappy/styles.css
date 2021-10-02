@@ -37,14 +37,14 @@
     top : -50px;
 }
 .sky {
-    background-color: blue;
+    background-color: purple;
     width: 500px;
     height: 580px;
     position: absolute;
 }
 
 .ground {
-    background-color: brown;
+    background-color: darkred;
     width: 500px;
     height: 150px;
     position: absolute;
@@ -53,7 +53,7 @@
 }
 
 .bird{
-    background-color: yellow;
+    background-image: url('blue_bird.png');
     position: absolute;
     width: 60px;
     height: 45px;
