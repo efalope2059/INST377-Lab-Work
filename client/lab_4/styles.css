@@ -99,12 +99,13 @@
 }
 
 .carousel .carousel-actions button{
-    border-radius: 50px;
+  background-color: cadetblue;
+    border-radius: 10px;
     border: 0;
     font-weight: bold;
     cursor: pointer;
     width: 40px;
-    height: 40px;  
+    height: 20px;  
 }
 
 .carousel .carousel-actions button#carousel-button--prev{
