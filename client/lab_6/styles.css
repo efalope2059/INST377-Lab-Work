@@ -1,0 +1,22 @@
+body{
+
+    box-sizing: border-box;
+    background: lavender;
+    font-family: 'arial';
+}
+
+
+input {
+    width: 100%;
+    padding: 20px;
+  }
+  
+.search-PG {
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  
+.zip-addy{
+    list-style: none;
+    justify-content: space-between;
+}
