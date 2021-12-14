@@ -16,7 +16,12 @@ function findMatches(wordToMatch, cities) {
 
 function displayMatches() {
   const matchArray = findMatches(this.value, cities);
-  console.log(matchArray);
+  const html = matchArray.map((place) => `
+        <li>
+            <span class = "zip-addy"> ${place.zip} : ${place.name}</span>
+        </li>
+        `).join('');
+  suggestions.innerHTML = html;
 }
 const searchInput = document.querySelector('.search');
 const suggestions = document.querySelector('.suggestions');
